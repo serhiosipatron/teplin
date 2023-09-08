@@ -1,0 +1,18 @@
+common-settings: &common-settings
+  password: ""
+  store: ""
+  bucket_size: 40
+  refill_rate: 2
+  concurrency: 2
+  timeout: 30s
+  ignores: .gitignore
+  ignore_files:
+    - assets/theme.scss
+    - .git/*
+    - .gitignore
+    - .idea
+    - dev/*
+
+development:
+  theme_id: "159074681125"
+  << : *common-settings
