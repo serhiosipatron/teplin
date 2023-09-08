@@ -1,6 +1,6 @@
 common-settings: &common-settings
-  password: "shptka_3bdde621e4ee12a42a44ae17b8355ad5"
-  store: "0ebb9c-2.myshopify.com"
+  password: ""
+  store: ""
   bucket_size: 40
   refill_rate: 2
   concurrency: 2
