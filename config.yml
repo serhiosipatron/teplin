@@ -1,0 +1,18 @@
+common-settings: &common-settings
+  password: "shptka_3bdde621e4ee12a42a44ae17b8355ad5"
+  store: "0ebb9c-2.myshopify.com"
+  bucket_size: 40
+  refill_rate: 2
+  concurrency: 2
+  timeout: 30s
+  ignores: .gitignore
+  ignore_files:
+    - assets/theme.scss
+    - .git/*
+    - .gitignore
+    - .idea
+    - dev/*
+
+development:
+  theme_id: "159074681125"
+  << : *common-settings
